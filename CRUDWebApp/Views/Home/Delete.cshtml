@@ -1,0 +1,60 @@
+﻿@*@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model counsellingApp.Models.Appointments;
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Counsellor/Views/Shared/_Layout.cshtml";
+}
+*@
+<div class="content">
+    <div class="row m-4">
+        <a asp-controller="Home" asp-action="Index" class="btn btn-primary"><< Back</a>
+    </div>
+    <div class="row m-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-category">Applicants</h5>
+                <h4 class="card-title">Edit Applicants</h4>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <form method="post" asp-controller="Counsellor" asp-action="Delete">
+                        <label>Name</label>
+                        <div class="form-group">
+                            <input type="text" name="Name" class="form-control" value="@Model.Name" disabled>
+                        </div>
+                        <label>Date</label>
+                        <div class="form-group">
+                            <input type="date" name="Date" class="form-control" value="@Model.Date" disabled>
+                        </div>
+                        <label>Venue</label>
+                        <div class="form-group">
+                            <input type="text" name="Venue" class="form-control" value="@Model.Venue" disabled>
+                        </div>
+                        <label>Issue</label>
+                        <div class="form-group">
+                            <input type="text" name="Issue" class="form-control" value="@Model.Issue" disabled>
+                        </div>
+                        @*<div class="form-check mt-3">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox">
+                                    <span class="form-check-sign"></span>
+                                    Subscribe to newsletter
+                                </label>
+                            </div>*@
+                        <div class="card-footer ">
+                            <button type="submit" class="btn btn-fill btn-danger">Delete</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        @*</div>*@
+    </div>
+</div>
+
+

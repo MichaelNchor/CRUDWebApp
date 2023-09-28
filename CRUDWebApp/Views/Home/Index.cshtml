@@ -1,0 +1,62 @@
+﻿@model IEnumerable<CRUDWebApp.Core.Product> 
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content">
+    <div class="row m-4">
+        <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Create</a>
+    </div>
+    <div class="row m-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-category">Products</h5>
+                <h4 class="card-title">All Products</h4>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped" id="applicants">
+                        <thead class=" text-primary">
+                            <tr>
+                                <th>
+                                    ProductName
+                                </th>
+                                <th>
+                                    Price
+                                </th>
+                                <th>
+                                    Qty
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var app in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @app.ProductName
+                                    </td>
+                                    <td>
+                                        @app.Price
+                                    </td>
+                                    <td>
+                                        @app.Qty
+                                    </td>
+                                    <td class="text-right">
+                                        <a asp-controller="Home" asp-action="Edit" asp-route-id="@app.Id" class="btn btn-round btn-warning btn-icon btn-sm edit"><i class="far fa-calendar-alt"></i></a>
+                                        <a asp-controller="Home" asp-action="Delete" asp-route-id="@app.Id" class="btn btn-round btn-danger btn-icon btn-sm remove"><i class="fas fa-times"></i></a>
+                                    </td>
+                                </tr>
+                                }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        @*</div>*@
+    </div>
+</div>
+
+

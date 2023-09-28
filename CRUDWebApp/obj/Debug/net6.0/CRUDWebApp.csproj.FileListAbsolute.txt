@@ -1,0 +1,8 @@
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp\obj\Debug\net6.0\CRUDWebApp.csproj.AssemblyReference.cache
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp\obj\Debug\net6.0\CRUDWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp\obj\Debug\net6.0\CRUDWebApp.AssemblyInfoInputs.cache
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp\obj\Debug\net6.0\CRUDWebApp.AssemblyInfo.cs
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp\obj\Debug\net6.0\CRUDWebApp.csproj.CoreCompileInputs.cache
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp\obj\Debug\net6.0\CRUDWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp\obj\Debug\net6.0\CRUDWebApp.RazorAssemblyInfo.cache
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp\obj\Debug\net6.0\CRUDWebApp.RazorAssemblyInfo.cs

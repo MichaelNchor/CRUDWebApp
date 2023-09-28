@@ -1,0 +1,17 @@
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp.Core\bin\Debug\net6.0\CRUDWebApp.Core.deps.json
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp.Core\bin\Debug\net6.0\CRUDWebApp.Core.runtimeconfig.json
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp.Core\bin\Debug\net6.0\CRUDWebApp.Core.dll
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp.Core\bin\Debug\net6.0\CRUDWebApp.Core.pdb
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp.Core\obj\Debug\net6.0\CRUDWebApp.Core.csproj.AssemblyReference.cache
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp.Core\obj\Debug\net6.0\CRUDWebApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp.Core\obj\Debug\net6.0\CRUDWebApp.Core.AssemblyInfoInputs.cache
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp.Core\obj\Debug\net6.0\CRUDWebApp.Core.AssemblyInfo.cs
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp.Core\obj\Debug\net6.0\CRUDWebApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp.Core\obj\Debug\net6.0\CRUDWebApp.Core.dll
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp.Core\obj\Debug\net6.0\refint\CRUDWebApp.Core.dll
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp.Core\obj\Debug\net6.0\CRUDWebApp.Core.pdb
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp.Core\obj\Debug\net6.0\CRUDWebApp.Core.genruntimeconfig.cache
+C:\Users\NCHOR\source\repos\CRUDWebApp\CRUDWebApp.Core\obj\Debug\net6.0\ref\CRUDWebApp.Core.dll
+C:\Users\UITS-PC\source\repos\CRUDWebApp\CRUDWebApp.Core\obj\Debug\net6.0\CRUDWebApp.Core.dll
+C:\Users\UITS-PC\source\repos\CRUDWebApp\CRUDWebApp.Core\obj\Debug\net6.0\refint\CRUDWebApp.Core.dll
+C:\Users\UITS-PC\source\repos\CRUDWebApp\CRUDWebApp.Core\obj\Debug\net6.0\CRUDWebApp.Core.pdb

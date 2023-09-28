@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\Home\Create.cshtml\**" />
+    <Compile Remove="Views\Home\Delete.cshtml\**" />
+    <Compile Remove="Views\Home\Edit.cshtml\**" />
+    <Content Remove="Views\Home\Create.cshtml\**" />
+    <Content Remove="Views\Home\Delete.cshtml\**" />
+    <Content Remove="Views\Home\Edit.cshtml\**" />
+    <EmbeddedResource Remove="Views\Home\Create.cshtml\**" />
+    <EmbeddedResource Remove="Views\Home\Delete.cshtml\**" />
+    <EmbeddedResource Remove="Views\Home\Edit.cshtml\**" />
+    <None Remove="Views\Home\Create.cshtml\**" />
+    <None Remove="Views\Home\Delete.cshtml\**" />
+    <None Remove="Views\Home\Edit.cshtml\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CRUDWebApp.Core\CRUDWebApp.Core.csproj" />
+    <ProjectReference Include="..\CRUDWebApp.Infrastructure\CRUDWebApp.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
